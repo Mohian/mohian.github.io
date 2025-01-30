@@ -1,56 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohian's Portfolio</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Mohian Ul Islam</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
+        <h1 style="font-family: 'Courier New', Courier, monospace; text-align: center;" >Mohian Ul Islam</h1>
+        <h3 style="text-align:center; font-family: 'Courier New', Courier, monospace; text-align: center;"> Software Engineer</h3>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
 
-        <div class="profile-header">
-            <img class="profile-image" src="./components/profile.png" alt="Profile Picture">
-            <h1 class="profile-name">Hi there!</h1>
-            <p class="welcomenote">I'm Mohian</p>
-
-          </div>
-          
-        <p>Software Engineer | Web Developer | AI Enthusiast</p>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <button type="button" class="btn btn-info me-1"><b>My Blog</b></button>
+                    <button type="button" class="btn btn-info me-1"><a class="nav-link" href="mohian.github.io/components/skills.html"><b>Skills</b></a></button>
+                    <button type="button" class="btn btn-info"><a class="nav-link" href="#contact"><b>Contact</b></button>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I’m Mohian. I love creating web applications, exploring artificial intelligence, and solving problems using technology.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Side Projects</h2>
-        <ul>
-            <li>Project 1: Webpage Auto Reload System
-                <ul><a href="https://github.com/Mohian/autoReloadPage.git" target="_blank">Source Code</a></ul>
-                <ul><a href="https://github.com/Mohian/autoReloadPage/releases/download/v1.0.0/MohianWARS.exe" target="_blank">.exe file</ul>
-               </a>
-            </li>
-            
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email me at <a href="mailto:contact.mohian@gmail.com">contact.mohian@gmail.com</a></p>
-        <a href="/components/resume.pdf" target="_blank">
-            My CV
-        </a>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2024 Mohian </p>
+    
+    <table class="table table-secondary">
+        <tr>
+            <td>
+                <h3>Portfolio Highlights</h3>
+                <ul>
+                    <li>Website Automatic Reloader<br><a href="https://github.com/Mohian/autoReloadPage.git">Source Code</a> <a href="https://github.com/Mohian/autoReloadPage/releases/download/v1.0.0/MohianWARS.exe">.exe file</a> </li>
+                    <!---<li>E-commerce Storefront</li>
+                    <li>Interactive Form Design</li>
+                    <li>Event Countdown Widget</li>
+                    <li>Prototype Landing Pages</li>
+                -->
+                </ul>
+            </td>
+            <td>
+                <h3>Academic Qualifications</h3>
+                <p>M.Sc (Information Technology) from Institute of Information Technology, Jahangirnagar University
+                <p>B.Sc (Computer Science & Engineering) from World University</p>
+                <p>Specializations:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Web Accessibility Standards</li>
+                    <li>Performance Optimization in Web Applications</li>
+                    <li>Advanced Algorithms</li>
+                    <li></li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <h3>Peer Reviews</h3>
+    <table border="1" width="100%">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <div id="contact">
+    <h3>Contact</h3>
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                </svg>
+              <a href= "mailto:contact.mohian@gmail.com">contact.mohian@gmail.com</a>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <footer style="text-align:center;">
+        © [2025] All rights reserved by Mohian Ul Islam
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
