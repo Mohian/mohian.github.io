@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #007acc;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 0.5rem;
+    color: #007acc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    padding: 2px 0; /* Minimal padding */
+    background-color: #007acc;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 1; /* No extra spacing */
+    font-size: 12px; /* Adjust as needed */
+    white-space: nowrap;
+}
+
+
+
+
+
+.profile-header {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    height: 100vh; 
+    background-color: #648cb4;
+  }
+  
+ 
+  .profile-image {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    opacity: 100;
+  }
+  
+  
+  .profile-name {
+    margin: 0; 
+    opacity: 100; 
+    animation: fadeInMove 1.5s ;
+  }
+  
+.welcomenote {
+    margin: 0; 
+    opacity: 100; 
+    animation: fadeInMove 3s ;
+    color: #fdfdfd;
+}
+
+
+  @keyframes fadeInMove {
+    from {
+      opacity: 0; 
+      transform: translateY(-1000px); 
+    to {
+      opacity: 1;
+      transform: translateY(0); 
+  }}
+
+ 
